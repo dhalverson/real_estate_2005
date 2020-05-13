@@ -38,8 +38,4 @@ class RoomTest < Minitest::Test
 
     assert_equal true, room.is_painted?
   end
-
-  ## Iteration 2
-
-
 end

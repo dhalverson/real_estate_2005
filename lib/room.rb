@@ -15,8 +15,11 @@ class Room
     false
   end
 
-  # def paint
-  #   is_painted? = true
-  # end
+# this one confused me, I think I'm overthinking it
+  def paint
+    if is_painted? == false
+      true
+    end
+  end
 
 end
